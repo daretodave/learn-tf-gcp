@@ -9,9 +9,9 @@ Longer description about the project and its components.
 
 ## Prerequisites
 
-- List of software and tools the user must have installed in their local environment.
-- Terraform version
-- Any specific OS requirements
+- Setup local Google Cloud SDK (gcloud CLI) 
+- Setup local [ADC aka application default credentials](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/provider_reference#running-terraform-on-your-workstation) for local init and apply 
+- Setup [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli) CLI
 
 ## Terraform Modules
 
